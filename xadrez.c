@@ -23,7 +23,19 @@ int main() {
         casas_rainha++; 
     } while (casas_rainha < 8);
 
-    return 0;
+//Movimentação do cavalo para baixo e esquerda ( movimentação)
+printf("\nMovimento do Cavalo:\n");
+for (int i = 0; i < 1; i++) {  // Loop externo para a movimentação para baixo
+    int j = 0;
+    while (j < 2) {  // Loop interno para mover 2 casas para baixo
+        printf("Baixo\n");
+        j++;  // Incrementa para mover para baixo 2 vezes
+    }
+    printf("Esquerda\n");  // Depois de mover para baixo, mover 1 casa para a esquerda
+}
+
+return 0;
+
 }
 
     // Nível Aventureiro - Movimentação do Cavalo
